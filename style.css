@@ -1,0 +1,73 @@
+* {
+	background-color: aliceblue;
+	font-family: verdana;
+	font-size: 100%;
+}
+.headone{
+	font-size: 130%;
+	text-align: center;
+}
+.headone span {
+	display: block;
+	font-weight: bold;
+}
+.headtwo {
+	text-align: center;
+	
+}
+p {
+	font-size: 80%;
+	margin: 5px;
+	background-color: inherit;
+	line-height: 150%;
+}
+div {
+	background-color: white;
+	padding: 20px;
+	margin: 20px;
+	border-radius: 5px;
+	border-top: 3px solid red;
+	padding-top: 3px;
+	min-height: 200px;
+}
+h3 {
+	background-color: inherit;
+	margin-bottom: 5px;
+}
+.supervisor {
+	border-top: 3px solid deepskyblue;
+}
+.builder {
+	border-top: 3px solid red;
+}
+.karma {
+	border-top: 3px solid sandybrown;
+}
+.calculator {
+	border-top: 3px solid deepskyblue;
+}
+img {
+	background-color: inherit;
+	margin-top: 50px;
+	float: right;
+	position: relative;
+	top: 100%;
+}
+@media screen and (min-width: 750px) {
+	
+	.arrange {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+	.arrange div {
+		max-height: 50px;
+	}
+	#sides {
+		position: relative;
+		top: 100px;
+		color: red;
+	}
+	#sides img {
+		top: 0%;
+	}
+}
